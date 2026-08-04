@@ -1,0 +1,60 @@
+.location {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 60px;
+
+}
+
+
+.location-content {
+
+    flex: 1;
+
+}
+
+
+.location-content h2 {
+
+    font-size: 2.5rem;
+
+    margin-bottom: 25px;
+
+}
+
+
+.location-content p {
+
+    line-height: 1.8;
+
+    margin-bottom: 35px;
+
+    font-size: 1.1rem;
+
+}
+
+
+.location-button {
+
+    background: var(--color-primary);
+
+    color: var(--color-light);
+}
+
+
+.location-image {
+
+    flex: 1;
+
+}
+
+
+.location-image img {
+
+    width: 100%;
+
+    border-radius: 12px;
+
+}

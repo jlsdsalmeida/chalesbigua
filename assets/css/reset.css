@@ -1,0 +1,56 @@
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+
+    --color-primary: #1f5b39;
+    --color-secondary: #d8c3a5;
+
+    --color-dark: #222222;
+    --color-text: #444444;
+
+    --color-light: #ffffff;
+    --color-background: #f7f7f7;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter' sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.button {
+
+    display: inline-block;
+
+    padding: 15px 35px;
+
+    border-radius: 30px;
+
+    text-decoration: none;
+
+    font-weight: 600;
+
+    transition: 0.3s;
+
+}
+
+.section {
+
+    padding: 100px 80px;
+
+}

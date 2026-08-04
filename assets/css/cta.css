@@ -1,0 +1,41 @@
+.cta {
+
+    background: var(--color-primary);
+
+    color: var(--color-light);
+
+    text-align: center;
+
+}
+
+
+.cta h2 {
+
+    font-size: 2.8rem;
+
+    margin-bottom: 20px;
+
+}
+
+
+.cta p {
+
+    font-size: 1.2rem;
+
+    margin-bottom: 40px;
+
+}
+
+
+.cta-button {
+    background: var(--color-light);
+
+    color: var(--color-primary);
+}
+
+
+.cta-button:hover {
+
+    transform: translateY(-3px);
+
+}

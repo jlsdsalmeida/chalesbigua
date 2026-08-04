@@ -8,7 +8,10 @@
     <title>Chalés Biguá</title>
 
     <meta name="description" content="Chalés Biguá - hospedagem em meio à natureza no bairro Biguá, Delfim Moreira - MG.">
-    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -21,15 +24,17 @@
     </div>
 
     <nav>
-        <a href="#">Início</a>
-        <a href="#">Chalés</a>
-        <a href="#">Localização</a>
-        <a href="#">Contato</a>
+        <a href="#hero">Início</a>
+        <a href="#chales">Chalés</a>
+        <a href="#location">Localização</a>
+        <a href="#cta">Contato</a>
     </nav>
 
     </header>
 
-    <section class="hero">
+    <main>
+
+    <section id="hero" class="hero">
 
     <video class="hero-video" autoplay muted loop playsinline>
         <source src="assets/videos/hero.mp4" type="video/mp4">
@@ -44,14 +49,14 @@
             Um refúgio em meio à natureza de Delfim Moreira
         </p>
 
-        <a href="#contato" class="hero-button">
+        <a href="#contato" class="button hero-button">
             Faça sua reserva
         </a>
     </div>
 
     </section>
 
-    <section class="about">
+    <section id="about" class="section about">
 
     <div class="about-image">
         <img src="assets/images/sobre.jpg" alt="Chalés Biguá em meio à natureza">
@@ -75,7 +80,7 @@
 
     </section>
 
-    <section class="chales">
+    <section id="chales" class="section chales">
 
     <div class="section-title">
 
@@ -134,7 +139,7 @@
 
     </section>
 
-    <section class="natureza">
+    <section id="natureza" class="section natureza">
 
     <div class="section-title">
         <h2>Conheça o Biguá</h2>
@@ -162,7 +167,7 @@
 
     </section>
 
-    <section class="location">
+    <section id="location" class="section location">
 
     <div class="location-content">
 
@@ -174,7 +179,7 @@
             montanhas da Serra da Mantiqueira.
         </p>
 
-        <a href="#" class="location-button">
+        <a href="#" class="button location-button">
             Como chegar
         </a>
 
@@ -189,7 +194,7 @@
 
     </section>
 
-    <section class="cta">
+    <section id="cta" class="section cta">
 
     <h2>Pronto para conhecer os Chalés Biguá?</h2>
 
@@ -197,11 +202,13 @@
         Entre em contato, tire suas dúvidas e faça sua reserva.
     </p>
 
-    <a href="#" class="cta-button">
+    <a href="#" class="button cta-button">
         Reservar pelo WhatsApp
     </a>
 
     </section>
+
+    </main>
 
     <footer class="footer">
 
