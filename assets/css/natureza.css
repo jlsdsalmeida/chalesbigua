@@ -62,3 +62,31 @@
     text-shadow: 0 2px 10px rgba(0,0,0,.6);
 
 }
+
+@media (max-width: 768px) {
+
+    .natureza-grid {
+
+        grid-template-columns: 1fr;
+
+        gap: 25px;
+
+    }
+
+    .natureza-item img {
+
+        height: 280px;
+
+    }
+
+    .natureza-item h3 {
+
+        font-size: 1.6rem;
+
+        left: 20px;
+
+        bottom: 20px;
+
+    }
+
+}

@@ -78,3 +78,33 @@
     line-height: 1.6;
 
 }
+
+@media (max-width: 768px) {
+
+    .section-title h2 {
+
+        font-size: 2rem;
+
+    }
+
+    .section-title p {
+
+        font-size: 1rem;
+
+    }
+
+    .chales-container {
+
+        flex-direction: column;
+
+        gap: 25px;
+
+    }
+
+    .chale-card img {
+
+        height: 240px;
+
+    }
+
+}
