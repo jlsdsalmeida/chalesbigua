@@ -75,3 +75,17 @@
     color: #aaa;
 
 }
+
+@media (max-width: 768px) {
+
+    .footer-container {
+
+        flex-direction: column;
+
+        padding: 40px 25px;
+
+        gap: 40px;
+
+    }
+
+}
