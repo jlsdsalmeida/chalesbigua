@@ -123,3 +123,6 @@
     }
 
 }
+.hero-welcome {
+    transform: translateY(10px);
+}
