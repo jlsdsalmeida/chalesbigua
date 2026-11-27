@@ -22,9 +22,9 @@ window.addEventListener("scroll", () => {
 
 const containerChales = document.querySelector(".chales-container");
 
-const setaAnterior = document.querySelector(".carousel-prev");
+const setaAnterior = document.querySelector(".carrossel-prev");
 
-const setaProxima = document.querySelector(".carousel-next");
+const setaProxima = document.querySelector(".carrossel-next");
 
 
 if (containerChales && setaAnterior && setaProxima) {
