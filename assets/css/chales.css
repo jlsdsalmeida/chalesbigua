@@ -23,7 +23,9 @@
 
 .chales-container {
 
-    display: flex;
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
 
     gap: 30px;
 
@@ -168,7 +170,7 @@
 
     .chales-container {
 
-        flex-direction: column;
+        grid-template-columns: 1fr;
 
         gap: 25px;
 

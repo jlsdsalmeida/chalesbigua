@@ -1,0 +1,140 @@
+
+.chale-detalhe {
+    padding: 140px 80px 80px;
+    background: var(--color-background);
+}
+
+.chale-galeria {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.chale-galeria > img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.chale-fotos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.chale-fotos img {
+    width: 100%;
+    height: 242px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.chale-informacoes {
+    max-width: 850px;
+}
+
+.chale-informacoes h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.chale-descricao {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.chale-caracteristicas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.chale-caracteristicas span {
+    background: #F5F3EA;
+    color: var(--color-primary);
+    padding: 10px 18px;
+    border-radius: 30px;
+}
+
+.chale-informacoes h2,
+.outros-chales h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.chale-informacoes ul {
+    padding-left: 25px;
+    margin-bottom: 35px;
+    line-height: 2;
+}
+
+.chale-contato {
+    background: var(--color-primary);
+    color: var(--color-light);
+}
+
+.outros-chales {
+    margin-top: 80px;
+    padding-top: 40px;
+    border-top: 1px solid #ddd;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.outros-chales h2 {
+    width: 100%;
+}
+
+.outros-chales a {
+    color: var(--color-primary);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.outros-chales a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+
+    .chale-detalhe {
+        padding: 110px 20px 50px;
+    }
+
+    .chale-galeria {
+        grid-template-columns: 1fr;
+    }
+
+    .chale-galeria > img {
+        height: 300px;
+    }
+
+    .chale-fotos {
+        flex-direction: row;
+    }
+
+    .chale-fotos img {
+        height: 130px;
+    }
+
+    .chale-informacoes h1 {
+        font-size: 2.3rem;
+    }
+
+    .chale-descricao {
+        font-size: 1rem;
+    }
+
+    .chale-caracteristicas {
+        flex-direction: column;
+    }
+
+    .outros-chales {
+        gap: 15px;
+    }
+}
