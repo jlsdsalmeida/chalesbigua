@@ -1,6 +1,6 @@
 
 .chale-detalhe {
-    padding: 140px 80px 80px;
+    padding: 60px 80px 80px;
     background: var(--color-background);
 }
 
@@ -103,7 +103,7 @@
 @media (max-width: 768px) {
 
     .chale-detalhe {
-        padding: 110px 20px 50px;
+        padding: 60px 20px 50px;
     }
 
     .chale-galeria {
@@ -137,4 +137,28 @@
     .outros-chales {
         gap: 15px;
     }
+}
+
+/*Estilo do breadcrumb (trilha de navegação das páginas dos chalés)*/
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 25px;
+    font-size: 0.9rem;
+}
+
+.breadcrumb a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb .current {
+    color: var(--color-text);
+    font-weight: 600;
 }

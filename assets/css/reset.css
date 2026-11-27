@@ -70,12 +70,12 @@ h6 {
         }
     }
 
-.container {
+/*Definindo parâmetros globais para os containers*/
 
-    max-width: 1200px;
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        width: 100%;
+    }
 
-    margin: 0 auto;
-
-    width: 100%;
-
-}
+/*Fim*/

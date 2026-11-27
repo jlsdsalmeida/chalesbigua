@@ -101,3 +101,9 @@
     backdrop-filter: blur(8px);
 
 }
+
+/*Definindo o estilo da navbar interna (sem transições especiais)*/
+.navbar.navbar-interna {
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(8px);
+}
