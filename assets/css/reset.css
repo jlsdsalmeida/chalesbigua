@@ -49,11 +49,26 @@ h6 {
 
 }
 
-.section {
+/*Definindo parâmetros globais para as sections*/
 
-    padding: 100px 80px;
+    /*Padrão:*/
+    .section {
+        padding: 80px 60px;
+    }
 
-}
+    /*Tablets*/
+    @media (max-width: 900px) {
+        .section{
+            padding: 70px 35px;
+        }
+    }
+
+    /*Computadores*/
+    @media (max-width: 600px) {
+        .section{
+            padding: 60px 20px;
+        }
+    }
 
 .container {
 

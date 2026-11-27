@@ -20,16 +20,30 @@
 
 }
 
+/*Organização dos Cards*/
+    
+    /*Padrão*/
+    .chales-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
 
-.chales-container {
+    /*Para Tablets*/
+    @media (min-width: 600px) {
+        .chales-container{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
 
-    display: grid;
+    /*Para computadores*/
+    @media (min-width: 900px) {
+        .chales-container{
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
 
-    grid-template-columns: repeat(3, 1fr);
 
-    gap: 30px;
-
-}
 
 
 .chale-card {
