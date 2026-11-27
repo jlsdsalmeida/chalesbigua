@@ -169,12 +169,26 @@
     }
 
     .chales-container {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
 
-        grid-template-columns: 1fr;
+.chales-container::-webkit-scrollbar {
+    display: none;
+}
 
-        gap: 25px;
+.chale-card {
+    flex: 0 0 85%;
+    scroll-snap-align: start;
+}
 
-    }
+.chale-card:hover {
+    transform: none;
+}
 
     .chale-card img {
 
@@ -182,4 +196,47 @@
 
     }
 
+}
+/* Carrossel de chalés */
+
+.chales-carrossel {
+    position: relative;
+}
+
+.carousel-arrow {
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+    .chales-carrossel {
+        padding: 0 25px;
+    }
+
+    .carousel-arrow {
+        display: flex;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 2;
+        align-items: center;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
+        border: none;
+        border-radius: 50%;
+        background: white;
+        color: var(--color-primary);
+        font-size: 20px;
+        cursor: pointer;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .carousel-prev {
+        left: 0;
+    }
+
+    .carousel-next {
+        right: 0;
+    }
 }

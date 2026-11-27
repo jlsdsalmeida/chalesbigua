@@ -1,3 +1,6 @@
+
+// Efeito da navbar ao rolar a página
+
 const navbar = document.querySelector(".navbar");
 
 window.addEventListener("scroll", () => {
@@ -13,3 +16,36 @@ window.addEventListener("scroll", () => {
     }
 
 });
+
+
+// Carrossel dos chalés
+
+const containerChales = document.querySelector(".chales-container");
+
+const setaAnterior = document.querySelector(".carousel-prev");
+
+const setaProxima = document.querySelector(".carousel-next");
+
+
+if (containerChales && setaAnterior && setaProxima) {
+
+    setaAnterior.addEventListener("click", () => {
+
+        containerChales.scrollBy({
+            left: -containerChales.clientWidth * 0.85,
+            behavior: "smooth"
+        });
+
+    });
+
+
+    setaProxima.addEventListener("click", () => {
+
+        containerChales.scrollBy({
+            left: containerChales.clientWidth * 0.85,
+            behavior: "smooth"
+        });
+
+    });
+
+}
