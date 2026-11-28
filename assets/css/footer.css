@@ -1,8 +1,9 @@
+/*Cores do Footer*/
 .footer {
 
-    background: #CFC6A6;
+    background: #000000;
 
-    color: var(--color-black);
+    color: #ffffff;
 
 }
 
@@ -48,7 +49,7 @@
 
     display: block;
 
-    color: #0D0D0D;
+    color: #ffffff;
 
     text-decoration: none;
 
@@ -59,7 +60,7 @@
 
 .footer-column a:hover {
 
-    color: var(--color-black);
+    color: #CFC6A6;
 
 }
 
@@ -70,9 +71,9 @@
 
     padding: 25px;
 
-    border-top: 1px solid #0D0D0D;
+    border-top: 1px solid #ffffff;
 
-    color: #0D0D0D;
+    color: #ffffff;
 
 }
 
@@ -88,4 +89,18 @@
 
     }
 
+}
+
+/*Arredondando a logo*/
+.footer-logo {
+    width: 140px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+.footer-social {
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }

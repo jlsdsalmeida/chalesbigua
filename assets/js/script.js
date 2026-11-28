@@ -49,3 +49,19 @@ if (containerChales && setaAnterior && setaProxima) {
     });
 
 }
+
+const botaoMostrarFotos = document.querySelector(".mostrar-fotos");
+const galeriaExpandida = document.querySelector("#galeriaExpandida");
+
+botaoMostrarFotos.addEventListener("click", () => {
+    galeriaExpandida.style.display = "block";
+    document.body.style.overflow = "hidden";
+});
+
+const botaoFecharGaleria = document.querySelector(".fechar-galeria");
+
+botaoFecharGaleria.addEventListener("click", () => {
+    galeriaExpandida.style.display = "none";
+    document.body.style.overflow = "auto";
+
+});

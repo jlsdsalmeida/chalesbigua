@@ -45,18 +45,18 @@
 
 
 .location-image {
-
     flex: 1;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 .location-image img {
-
     width: 100%;
-
+    max-width: 220px;
+    object-fit: contain;
     border-radius: 12px;
-
 }
 
 @media (max-width: 768px) {
@@ -85,8 +85,8 @@
 
     }
 
-    .location-image{
+    /*.location-image{
         order:-1;
-    }
+    }*/
 
 }
